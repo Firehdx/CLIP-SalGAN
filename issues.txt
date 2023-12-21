@@ -1,0 +1,5 @@
+# If you encounter the issue of ImportError: /lib64/libstdc++.so.6: version
+# try the following command
+export LD_LIBRARY_PATH=/lustre/home/acct-stu/stu233/.conda/envs/CLIP/lib/:$LD_LIBRARY_PATH
+export LD_PRELOAD=/lustre/home/acct-stu/stu233/.conda/envs/CLIP/lib/libstdc++.so.6:$LD_PRELOAD
+source ~/.bashrc
